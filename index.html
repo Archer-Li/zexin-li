@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111512">
+  <meta name="description" content="Zexin Li. Based in New York. Systems, observability, and AI tools. A personal corner of the web.">
+  <title>Zexin Li — systems & AI tools</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Zexin Li home"><span class="mark">z<span>l</span>.</span><span class="wordmark-path">~/zexin-li</span></a>
+      <nav aria-label="Main navigation"><a href="#focus">Focus</a><a href="#perspective">Perspective</a><a href="#connect">Connect <span aria-hidden="true">↗</span></a></nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-topline"><span><span class="status-dot" aria-hidden="true"></span> A PERSONAL CORNER OF THE WEB</span><span class="location">NEW YORK <span aria-hidden="true">/</span> <time id="ny-clock" aria-label="Current time in New York">ET</time></span></div>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="command-label"><span aria-hidden="true">$</span> whoami</p>
+            <h1 id="hero-title">Zexin Li<span class="accent">.</span></h1>
+            <p class="hero-subtitle">Systems, signals,<br>and a little curiosity<span class="accent">_</span></p>
+            <p class="hero-description">Based in New York. Into systems and AI tools. A space for ideas, experiments, and things worth making.</p>
+            <a class="primary-link" href="#perspective">A point of view <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="terminal" aria-label="Interactive personal terminal">
+            <div class="terminal-chrome"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>zexin-li — shell</span><span class="terminal-indicator" aria-hidden="true">⌘</span></div>
+            <div class="terminal-body">
+              <div class="terminal-output" id="terminal-output" role="log" aria-live="polite" aria-relevant="additions" tabindex="0"><div class="terminal-entry"><p class="terminal-prompt"><span>visitor@zexin-li</span>:~ $ whoami</p><p>Zexin Li<br>New York, NY<br>Systems · observability · AI tooling</p><p class="terminal-muted">A small shell. A few ways to look around.<br>Type <span class="terminal-highlight">help</span> to get started.</p></div></div>
+              <form id="terminal-form" autocomplete="off"><label class="input-prompt" for="terminal-input"><span aria-hidden="true">❯</span><span class="sr-only">Terminal command</span></label><input id="terminal-input" name="command" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" maxlength="120" placeholder="try help" aria-describedby="terminal-hint"><button type="submit" class="terminal-submit" aria-label="Run command">↵</button></form>
+            </div>
+            <div class="terminal-shortcuts" id="terminal-hint"><span>TRY</span><button type="button" data-command="focus">focus</button><button type="button" data-command="philosophy">philosophy</button><button type="button" data-command="links">links</button></div>
+          </div>
+        </div>
+        <div class="hero-bottom"><span>BUILD WITH INTENTION.</span><a href="#focus">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="focus-section section" id="focus" aria-labelledby="focus-title">
+        <div class="section-intro"><p class="section-index">01 / FOCUS</p><h2 id="focus-title">Under the hood<span class="accent">.</span></h2><p>Interested in the systems that make useful things work.</p></div>
+        <div class="focus-list">
+          <article class="focus-row"><span class="row-number">01</span><div><h3>Platform & infrastructure</h3><p>Streaming APIs, reusable middleware, and the connections between services.</p><p class="tool-line">NGINX <span>/</span> OPENRESTY <span>/</span> KUBERNETES <span>/</span> HELM</p></div><span class="row-symbol" aria-hidden="true">↗</span></article>
+          <article class="focus-row"><span class="row-number">02</span><div><h3>Observability</h3><p>Making systems easier to understand, investigate, and improve.</p><p class="tool-line">OPENTELEMETRY <span>/</span> GRAFANA <span>/</span> TELEMETRY PIPELINES</p></div><span class="row-symbol" aria-hidden="true">◎</span></article>
+          <article class="focus-row"><span class="row-number">03</span><div><h3>AI developer tools</h3><p>MCP integrations, agent workflows, and feedback loops grounded in testing.</p><p class="tool-line">MCP <span>/</span> PYTHON <span>/</span> AGENT EVALUATION</p></div><span class="row-symbol" aria-hidden="true">⟳</span></article>
+        </div>
+      </section>
+
+      <section class="perspective-section section" id="perspective" aria-labelledby="perspective-title">
+        <div class="section-intro"><p class="section-index">02 / PERSPECTIVE</p><h2 id="perspective-title">AI as an<br>external brain<span class="accent">.</span></h2></div>
+        <div class="perspective-body"><p class="statement">Offloading repetitive effort.<br>Making more room for <span>creativity.</span></p><p>A continuous human–AI learning loop turns accumulated memory, feedback, and verification into stronger intuition and better defaults. Building tools for this loop strengthens System 1 and frees System 2 for deeper reasoning, higher-order problems, and meaningful creation.</p>
+          <div class="loop" aria-label="A repeating loop: context, feedback, and better defaults"><span><small>01</small>Context</span><b aria-hidden="true">→</b><span><small>02</small>Feedback</span><b aria-hidden="true">→</b><span><small>03</small>Better defaults</span><div class="loop-return"><span>CONTINUOUS LEARNING</span><span aria-hidden="true">↩</span></div></div>
+        </div>
+      </section>
+
+      <section class="connect-section" id="connect" aria-labelledby="connect-title"><div><p class="section-index">03 / ELSEWHERE</p><h2 id="connect-title">Keep in touch<span class="accent">_</span></h2></div><div class="social-links"><a href="https://github.com/Archer-Li">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/zexin-archer-li/">LinkedIn <span aria-hidden="true">↗</span></a></div></section>
+    </main>
+    <footer><span>© <span id="year">2026</span> Zexin Li</span><span class="footer-message">A work in progress, by design.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  </div>
+</body>
+</html>
